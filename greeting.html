@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Greeting HTML</title>
+</head>
+<body>
+<h1 id= "msg">Welcome to JS</h1>
+<script>
+	// alert("Hello World!")
+	// console.log("Hello World")
+	var msgHandle = document.getElementById('msg');
+	var name = prompt("Enter your name:");
+	msgHandle.innerHTML = "Welcome " + name;
+</script>
+</body>
+</html>
